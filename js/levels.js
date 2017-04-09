@@ -3,7 +3,8 @@ var levels = [
     name: 'grid-column-start 1',
     instructions: {
       'en': '<p>Welcome to Grid Garden, where you write CSS code to grow your carrot garden! Water only the areas that have carrots by using the <code>grid-column-start</code> property.</p><p>For example, <code>grid-column-start: 3;</code> will water the area starting at the 3rd vertical grid line, which is another way of saying the 3rd vertical border from the left in the grid.</p>',
-      'fr': '<p>Bienvenue dans Grid Garden, où vous écrivez du code CSS pour cultiver votre jardin de carotte ! Arrosez seulement les régions qui ont des carottes en utilisant la propriété <code>grid-column-start</code>.</p><p>Par exemple, <code>grid-column-start: 3;</code> arrosera la région commençant à la 3ème ligne verticale de la grille, une autre manière de le dire, c\'est la 3ème bordure verticale en partant de la gauche dans la grille.</p>'
+      'fr': '<p>Bienvenue dans Grid Garden, où vous écrivez du code CSS pour cultiver votre jardin de carotte ! Arrosez seulement les régions qui ont des carottes en utilisant la propriété <code>grid-column-start</code>.</p><p>Par exemple, <code>grid-column-start: 3;</code> arrosera la région commençant à la 3ème ligne verticale de la grille, une autre manière de le dire, c\'est la 3ème bordure verticale en partant de la gauche dans la grille.</p>',
+      'es': '<p>Bienvenido al Grid Garden, donde escribes CSS para cuidar tu jard&iacute;n de zanahorias! Riega s&oacute;lo las &aacute;reas en las que hay zanahorias usando la propiedad <code>grid-column-start</code>.</p><p>Por ejemplo, <code>grid-column-start: 3;</code> va a regar el &aacute;rea empezando en la 3<sup>a.</sup> l&iacute;nea vertical de la cuad&iacute;cula, que es lo mismo que decir el 3<sup>er.</sup> borde desde la izquierda en la cuadr&iacute;cula.</p>'
     },
     board: 'c',
     selector: '> :nth-child(1)',
@@ -15,7 +16,8 @@ var levels = [
     name: 'grid-column-start 2',
     instructions: {
       'en': '<p>Uh oh, looks like weeds are growing in the corner of your garden. Use <code>grid-column-start</code> to poison them. Note that the weeds start at the 5th vertical grid line.',
-      'fr': '<p>Houlà, il semblerait que les mauvaises herbes poussent dans le coin de votre jardin. Utilisez <code>grid-column-start</code> pour les empoisonner. Remarquez que les mauvaises herbes commencent à la 5ème ligne verticale de la grille.'
+      'fr': '<p>Houlà, il semblerait que les mauvaises herbes poussent dans le coin de votre jardin. Utilisez <code>grid-column-start</code> pour les empoisonner. Remarquez que les mauvaises herbes commencent à la 5ème ligne verticale de la grille.',
+      'es': '<p>Oh!, parece que hay maleza creciendo en la esquina de tu jard&iacute;n. Usa <code>grid-column-start</code> para envenenarlas. Ten en cuenta que la maleza comienza en la 5<sup>a.</sup> l&iacute;nea vertical de la cuadrícula.'
     },
     board: 'w',
     selector: '> :nth-child(1)',
